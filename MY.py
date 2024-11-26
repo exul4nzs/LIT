@@ -103,7 +103,7 @@ if 'bio_data' not in st.session_state:
             {"Year": "2023", "Achievement": "Best Student in Research Awardee"}
         ]
     }
-    st.form_submit_button() 
+
 
 # ---- Editable Form ----
 with st.form("edit_bio_form"):
