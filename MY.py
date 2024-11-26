@@ -145,3 +145,6 @@ with st.container():
     st.markdown("[Facebook](https://facebook.com) | [LinkedIn](https://linkedin.com) | [Upwork](https://upwork.com)", unsafe_allow_html=True)
 
 st.markdown('<footer>Created with 💻 using Streamlit</footer>', unsafe_allow_html=True)
+
+
+st.image("BART.jpg")
