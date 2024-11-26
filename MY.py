@@ -92,7 +92,7 @@ if 'bio_data' not in st.session_state:
         'mother': "Betsy D.Teleron",
         'mother_bday': datetime.date(1967, 2, 26),
         'father': "Joey Adelfo L. Teleron",
-        'father_bday': datetime.date(1960, 19, 23)
+        'father_bday': datetime.date(1960, 19, 23),
         'guardian': "Jerry I. Teleron",
         'high_school': "Crossing Bayabas National High School",
         'senior_high_school': "Crossing Bayabas National High School",
