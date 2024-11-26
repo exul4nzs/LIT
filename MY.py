@@ -147,4 +147,4 @@ with st.container():
 st.markdown('<footer>Created with 💻 using Streamlit</footer>', unsafe_allow_html=True)
 
 
-st.image("BART.jpg")
+st.image("BART.jpg", width=150)
