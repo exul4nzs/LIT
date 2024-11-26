@@ -110,11 +110,7 @@ with st.form("edit_bio_form"):
         st.session_state['bio_data']['college'] = st.text_input("College", st.session_state['bio_data']['college'])
 
     st.markdown('<div class="subheader">Profile Picture</div>', unsafe_allow_html=True)
-    with st.container():
-        uploaded_image = st.file_uploader("Upload Your Photo", type=["jpg", "png", "jpeg"])
-        if uploaded_image:
-            st.session_state['bio_data']['profile_picture'] = uploaded_image
-
+       
     # Submit Button
     submitted = st.form_submit_button("Save Changes")
 
@@ -135,6 +131,8 @@ with st.container():
     st.write(f"**Senior High School:** {st.session_state['bio_data']['senior_high_school']}")
     st.write(f"**College:** {st.session_state['bio_data']['college']}")
 
+   if st.session_state['bio_data']['profile_picture']:
+        st.image(st.session_state['bio_data']['profile_picture'], caption="Your Profile Picture", use_column_width=True)
 
 # ---- Display Achievements Table ----
 st.markdown('<div class="subheader">🏆 Achievements</div>', unsafe_allow_html=True)
