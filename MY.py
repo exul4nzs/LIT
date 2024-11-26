@@ -3,6 +3,7 @@ import datetime
 
 # ---- Page Configuration ----
 st.set_page_config(page_title="Bartley's Biography", page_icon="📘", layout="wide")
+st.image("BART.jpg", width=150)
 
 # ---- Apply Custom CSS for Styling ----
 st.markdown(
