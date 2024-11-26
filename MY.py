@@ -126,7 +126,8 @@ with st.form("edit_bio_form"):
         st.session_state['bio_data']['senior_high_school'] = st.text_input("Senior High School", st.session_state['bio_data']['senior_high_school'])
         st.session_state['bio_data']['college'] = st.text_input("College", st.session_state['bio_data']['college'])
 
-
+    # Submit Button
+    submitted = st.form_submit_button("Save Changes")
 
 # ---- Display Achievements Table ----
 st.markdown('<div class="subheader">🏆 Achievements</div>', unsafe_allow_html=True)
