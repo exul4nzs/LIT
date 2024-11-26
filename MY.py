@@ -15,7 +15,7 @@ with col1:
 # Add content to the second column
 with col2:
     
-    st.image("BART.jpg", width=150)
+    st.image("BART.jpg", use_container_width=True)
 
 # Add content to the third column
 with col3:
@@ -163,5 +163,3 @@ with st.container():
 
 st.markdown('<footer>Created with 💻 using Streamlit</footer>', unsafe_allow_html=True)
 
-
-st.image("BART.jpg", width=150)
