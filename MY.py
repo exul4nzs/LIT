@@ -69,14 +69,14 @@ st.markdown('<div class="title">Bartley\'s Biography</div>', unsafe_allow_html=T
 # ---- Initialize Session State ----
 if 'bio_data' not in st.session_state:
     st.session_state['bio_data'] = {
-        'name': "Enter your name",
+        'name': "Bartley Josh D. Teleron",
         'age': "19",
         'gender': "Male",
-        'mother': "Enter mother's name",
+        'mother': "Betsy D.Teleron",
         'mother_bday': datetime.date(1967, 2, 26),
-        'father': "Enter father's name",
+        'father': "Joey Adelfo L. Teleron",
         'father_bday': datetime.date(1960, 10, 23),
-        'guardian': "Enter guardian's name",
+        'guardian': "Jerry I. Teleron",
         'high_school': "Crossing Bayabas National High School",
         'senior_high_school': "Crossing Bayabas National High School",
         'college': "Surigao del Norte State University",
