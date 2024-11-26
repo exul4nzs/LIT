@@ -159,7 +159,7 @@ st.table(achievements)
 st.markdown('<hr>', unsafe_allow_html=True)
 st.markdown('<div class="subheader">🌐 Social Media</div>', unsafe_allow_html=True)
 with st.container():
-    st.markdown("[Facebook](https://facebook.com) | [LinkedIn](https://linkedin.com) | [Upwork](https://upwork.com)", unsafe_allow_html=True)
+    st.markdown("[Facebook](https://www.facebook.com/bartleyjosh.teleron.5) | [Upwork](https://www.upwork.com/freelancers/~019a045a83472c8a1d)", unsafe_allow_html=True)
 
 st.markdown('<footer>Created with 💻 using Streamlit</footer>', unsafe_allow_html=True)
 
