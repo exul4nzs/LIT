@@ -3,7 +3,23 @@ import datetime
 
 # ---- Page Configuration ----
 st.set_page_config(page_title="Bartley's Biography", page_icon="📘", layout="wide")
-st.image("BART.jpg", width=150)
+
+
+
+col1, col2, col3 = st.columns(3)
+
+# Add content to the first column
+with col1:
+    st.write("")
+
+# Add content to the second column
+with col2:
+    
+    st.image("BART.jpg", width=150)
+
+# Add content to the third column
+with col3:
+    st.write("")
 
 # ---- Apply Custom CSS for Styling ----
 st.markdown(
