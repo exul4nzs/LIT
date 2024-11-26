@@ -131,7 +131,7 @@ with st.container():
     st.write(f"**Senior High School:** {st.session_state['bio_data']['senior_high_school']}")
     st.write(f"**College:** {st.session_state['bio_data']['college']}")
 
-   if st.session_state['bio_data']['profile_picture']:
+    if st.session_state['bio_data']['profile_picture']:
         st.image(st.session_state['bio_data']['profile_picture'], caption="Your Profile Picture", use_column_width=True)
 
 # ---- Display Achievements Table ----
