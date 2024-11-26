@@ -63,13 +63,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ---- Insert an Image at the Top ----
-st.image(
-    "/home/eb204-u16/Pictures/asdasd.png",  # Replace with the actual file path or URL
-    caption="Welcome to Bartley's Biography",
-    use_column_width=True
-)
-
 # ---- Header Section ----
 st.markdown('<div class="title">Bartley\'s Biography</div>', unsafe_allow_html=True)
 
