@@ -130,25 +130,6 @@ with st.form("edit_bio_form"):
     # Submit Button
     submitted = st.form_submit_button("Save Changes")
 
-# ---- Display Biography ----
-if submitted:
-    st.success("Biography updated successfully!")
-
-st.markdown('<hr>', unsafe_allow_html=True)
-st.markdown('<div class="subheader">📄 Your Biography</div>', unsafe_allow_html=True)
-with st.container():
-    st.write(f"**Name:** {st.session_state['bio_data']['name']}")
-    st.write(f"**Age:** {st.session_state['bio_data']['age']}")
-    st.write(f"**Gender:** {st.session_state['bio_data']['gender']}")
-    st.write(f"**Mother's Name:** {st.session_state['bio_data']['mother']} (Born: {st.session_state['bio_data']['mother_bday']})")
-    st.write(f"**Father's Name:** {st.session_state['bio_data']['father']}")
-    st.write(f"**Guardian's Name:** {st.session_state['bio_data']['guardian']}")
-    st.write(f"**High School:** {st.session_state['bio_data']['high_school']}")
-    st.write(f"**Senior High School:** {st.session_state['bio_data']['senior_high_school']}")
-    st.write(f"**College:** {st.session_state['bio_data']['college']}")
-
-    if st.session_state['bio_data']['profile_picture']:
-        st.image(st.session_state['bio_data']['profile_picture'], caption="Your Profile Picture", use_column_width=True)
 
 # ---- Display Achievements Table ----
 st.markdown('<div class="subheader">🏆 Achievements</div>', unsafe_allow_html=True)
