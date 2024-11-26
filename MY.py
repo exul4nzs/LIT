@@ -63,6 +63,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# ---- Insert an Image at the Top ----
+st.image(
+    "/home/eb204-u16/Pictures/asdasd.png",  # Replace with the actual file path or URL
+    caption="Welcome to Bartley's Biography",
+    use_column_width=True
+)
+
 # ---- Header Section ----
 st.markdown('<div class="title">Bartley\'s Biography</div>', unsafe_allow_html=True)
 
@@ -73,8 +80,9 @@ if 'bio_data' not in st.session_state:
         'age': "19",
         'gender': "Male",
         'mother': "Enter mother's name",
-        'mother_bday': datetime.date(1970, 1, 1),
+        'mother_bday': datetime.date(1967, 2, 26),
         'father': "Enter father's name",
+        'father_bday': datetime.date(1960, 10, 23),
         'guardian': "Enter guardian's name",
         'high_school': "Crossing Bayabas National High School",
         'senior_high_school': "Crossing Bayabas National High School",
